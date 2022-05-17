@@ -10,8 +10,8 @@ def makeFrame (str):
   line = '*' * (longestWord + 4) #asterisk line for to and bottom
   print(line)
 
-  for value in list:
-    print('* ' + value + (' ' * (longestWord - len(value))) + ' *')
+  for word in list:
+    print('* ' + word + (' ' * (longestWord - len(word))) + ' *')
 
   print(line)
 
