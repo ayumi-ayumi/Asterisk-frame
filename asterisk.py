@@ -5,7 +5,7 @@ def makeFrame (str):
   for i in list:
     letterlist.append(len(i))
   
-  longestWord = max(letterlist) #number for the longest word
+  longestWord = max(letterlist) #length for the longest word
 
   line = '*' * (longestWord + 4) #asterisk line for to and bottom
   print(line)
